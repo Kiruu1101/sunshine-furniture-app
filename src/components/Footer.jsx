@@ -30,7 +30,7 @@ export default function Footer() {
             SunshineFurnitureStore Pvt. Ltd.<br />
             123 Furniture Lane,<br />
             Pune, India - 411047<br />
-            Email: support@myfurniturestore.com
+            Email: kirangr811@gmail.com
           </address>
         </div>
         <div className="footer-section social">
@@ -45,7 +45,8 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} SUNSHINE Furniture Store. All Rights Reserved.
+        © {new Date().getFullYear()} SUNSHINE Furniture Store. All Rights Reserved. 
+        <br/>~By Kiran Chavan
       </div>
     </footer>
   );
