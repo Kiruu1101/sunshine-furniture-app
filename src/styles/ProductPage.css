@@ -1,0 +1,53 @@
+.product-page h2 {
+  font-weight: bold;
+}
+
+.testimonial {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+/* styles/ProductPage.css */
+
+.product-page h2 {
+  font-weight: 600;
+}
+
+.product-page .btn-warning {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.product-page ul li {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #007bff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+

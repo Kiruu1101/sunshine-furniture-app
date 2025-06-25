@@ -1,0 +1,57 @@
+.product-card {
+  width: 100%;
+  max-width: 18rem;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s ease;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.stock-ribbon {
+  position: absolute;
+  top: 20px;
+  right: -40px;
+  transform: rotate(45deg);
+  background-color: rgba(220, 53, 69, 0.9); /* Bootstrap's danger color */
+  color: white;
+  padding: 5px 40px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.price {
+  color: #28a745; /* Green */
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.quantity {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.product-card.out-of-stock {
+  opacity: 0.7;
+}
