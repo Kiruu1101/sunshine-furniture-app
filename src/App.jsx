@@ -23,7 +23,6 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [isCartOpen, setIsCartOpen] = useState(false);
 
-  // ✅ Replace onAuthStateChanged with refreshIdToken
   useEffect(() => {
     const refreshToken = sessionStorage.getItem('refreshToken');
 
